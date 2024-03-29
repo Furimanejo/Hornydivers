@@ -2,15 +2,18 @@ An application to controls sex toys based on Helldivers 2 gameplay. Here's a [li
 
 # Instructions:
 - Install and run [Intiface Central](https://intiface.com/central/).
-- Download and run [a release of Hornydivers](https://github.com/Furimanejo/).
+- Download and run a release of [Hornydivers](https://github.com/Furimanejo/Hornydivers/releases).
 - One the tab "Device Control" click connect to intiface. Make sure your toys are on and appear on the list of connected devices.
 
 # Current Features:
+- Hornydivers reads your screen while you play, detecting changes on the game's HUD and generating a score that is used to control your toys.
+- You get points when your health goes up or down, proportional to the amount of health changed. These points go down over time according to the decay value.
+- You also have points proportional to your current missing health. These don't decay with time.
 
 # Observations:
-- Only the default HUD settings are supported (Scale = 0.9 and Curve = 0).
+- Only the default HUD settings are supported (Scale = 0.90 and Curve = 0).
 - Supported aspect ratios: 16:9.
-- If you want to use the overlay, make sure your game is running in borderless display mode.
+- To use the overlay make sure your game is running in borderless display mode.
 - For multiple monitors setups: you can change the montitor where the detection occurs by editing the variable "monitor_number" in the generated config file "config.json".
 
 # Support:
