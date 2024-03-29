@@ -2,7 +2,7 @@ An application to controls sex toys based on Helldivers 2 gameplay. Here's a [li
 
 # Instructions:
 - Install and run [Intiface Central](https://intiface.com/central/).
-- Download a release of [Hornydivers](https://github.com/Furimanejo/Hornydivers/releases) (the .zip file, not the Source Code) and extract it to a new folder. Do not move the files from inside it anywhere.
+- Download a release of [Hornydivers](https://github.com/Furimanejo/Hornydivers/releases) (the .zip file, not the Source Code) and extract it to a new folder. Do not move the files from inside it.
 - Run Hornydivers. On the tab "Device Control" click connect to intiface. Make sure your toys are on and appear on the list of connected devices.
 - Test the app by playing Helldivers 2, or a gameplay video in fullscreen.
 
